@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/aa1661fd5d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header> <!--header-->
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-3">
+                    <a class="logo-image" href="#">
+                        <img src="./img/logo.1.png" alt="logo header">
+                    </a>
+                </div>
+                <div class="col-6">
+                    <ul class="link-header d-flex gap-3 justify-content-evenly">
+                        <li><a class="text-decoration-none text-dark" href="#">link</a></li>
+                        <li><a class="text-decoration-none text-dark" href="#">link</a></li>
+                        <li><a class="text-decoration-none text-dark" href="#">link</a></li>
+                        <li><a class="text-decoration-none text-dark" href="#">link</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <ul class="icon-header d-flex justify-content-end">
+                        <li><i class="fa-solid fa-user-plus"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero py-3"> <!--hero-->
+            <div class="container-fluid">
+                <!-- inizio carosello hero -->
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-width-img carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/hero1.JPG" class="d-block w-100" alt="img hero 1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/hero2.JPG" class="d-block w-100" alt="img hero 2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/hero3.JPG" class="d-block w-100" alt="img hero 3">
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="who-are py-5"> <!--chi siamo-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 p-3">
+                        <h2>Chi siamo</h2>
+                        <h5 class="text-secondary">Storia di tradizioni</h5>
+                        <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores nesciunt nulla ullam et dolorem provident magnam beatae. Error, eveniet quibusdam vero corrupti exercitationem saepe laboriosam dolores aperiam assumenda cupiditate fugit.</p>
+                        <br>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea quo odio dolor corporis nobis at iure numquam, in a laborum harum et temporibus corrupti dolorem recusandae. Ut voluptates itaque nisi temporibus. Ea alias facilis minima, placeat eligendi eos. Ex, quibusdam!</p>
+                    </div>
+                    <div class="col-4">
+                        <div class="card-bg card border-0">
+                            <img src="./img/who are.jpg" alt="who are img">
+                        </div>
+                    </div>
+                </div>
+                <button class="button-who-are" type="button">
+                    Scopri di più
+                </button>
+            </div>
+        </section>
+        <section class="our-style py-5"><!--i nostri stili-->
+            <div class="container">
+                <h2 class="text-center">I nostri stili...</h2>
+                <p class="mt-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorem nam veritatis corporis consectetur provident deleniti accusantium inventore, et quaerat dolor, harum officia rerum sed!
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo a perferendis odit minima voluptas velit molestiae magni nesciunt ipsum nobis.
+                </p>
+                <div class="row g-3 py-5"> <!--inizio card section-->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-style card border-0">
+                            <img src="./img/card1.jpg" class="card-img-top" alt="card img 1">
+                            <div class="card-img-overlay">
+                                <div class="card-overlay card-title text-center">
+                                    CONTEMPORANEO
+                                </div>
+                            </div>
+                            <div class="card-style card-body">
+                                <button class="button-style" type="button">
+                                    Scopri il catalogo
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-style card border-0">
+                            <img src="./img/ca.jpg" class="card-img-top" alt="card img 1">
+                            <div class="card-img-overlay">
+                                <div class="card-overlay card-title text-center">
+                                    CLASSICO
+                                </div>
+                            </div>
+                            <div class="card-style card-body">
+                                <button class="button-style" type="button">
+                                    Scopri il catalogo
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-style card border-0">
+                            <img src="./img/IMG_8557.jpg" class="card-img-top" alt="card img 1">
+                            <div class="card-img-overlay">
+                                <div class="card-overlay card-title text-center ">
+                                    VINTAGE
+                                </div>
+                            </div>
+                            <div class="card-style card-body">
+                                <button class="button-style" type="button">
+                                    Scopri il catalogo
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-style card border-0">
+                            <img src="./img/card4.jpg" class="card-img-top" alt="card img 1">
+                            <div class="card-img-overlay">
+                                <div class="card-overlay card-title text-center">
+                                    SPERIMENTALE
+                                </div>
+                            </div>
+                            <div class="card-style card-body">
+                                <button class="button-style" type="button">
+                                    Scopri il catalogo
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
